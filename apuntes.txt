@@ -11,3 +11,124 @@ Configuracion del entorno de trabajo:
 - Un editor de codigo, VSCode.
 - Existe un editor online jsbin -> https://jsbin.com/?html,js,output
 
+_____________________
+1- Que es Javascript:
+---------------------
+¿Cómo nace Javascript?
+Nace con la necesidad de generar dinamismo en las páginas web y que a su vez los usuarios y las empresas pudieran interactuar unos con otros.
+
+¿Qué es Javascript?
+Es un lenguaje interpretado, orientado a objetos, débilmente tipado y dinámico.
+
+Débilmente tipado: Hace referencia a los tipos.
+Se pueden hacer operaciones entre tipos distintos de datos (enteros con strings, booleanos con enteros, etc). Ejemplo:
+
+    4 + "7"; //47
+    4 * "7"; //28
+    2 + true; // 3
+    false - 3; //-3
+
+Dinámico:
+Corre directamente en la etapa de Runtime sin una etapa de compilación previa. Esto permite probar nuestro código inmediatamente; pero también es lo que hace que los errores se muestren hasta que se ejecuta el programa.
+
+¿Realmente es Javascript un lenguaje interpretado?
+
+Si, y la razón es que le navegador lee linea por linea nuestro código el cuál le indica lo que tiene que hacer, sin la necesidad de compilar. Todo esto es controlado por el motor de Javascript V8 del navegador.
+
+Para ejecutar el codigo existe otro programa, el interprete, es el que lee linea por linea el código en tiempo de ejecucion.
+
+Forwards: Ser compatible con versiones futuras significa que incluir una adición al lenguaje en un programa no causaria que se rompa si se ejecuta en un motor JS anterior.
+
+JS no es compatible con versiones futuras.
+
+Javascript es Backwards Compatible:
+
+Todas las funciones nuevas que salen de Javascript no dañarán el trabajo ya hecho, pero no se podrá utilizar en nuestro entorno de trabajo inmediatamente. Para solucionar esto está Babel que permite utilizar las nuevas características del lenguaje pero lo transforma a una versión que el navegador pueda entender.
+
+Para poder utilizar las cosas nuevas que salen de JS en proyectos anteriores debemos usar JS Compilador BABEL.
+
+Es un compilador de JS para usar las nuevas mejoras de JS.
+
+JavaScript tiene una comunidad enorme de desarrolladores que te pueden ir ayudando a generar diferentes cosas.
+
+Si solo estuvieras interesado en trabajar aplicaciones web tienes muchos frameworks y librerías construidas en JavaScript que te van a ayudar a hacer proyectos de forma mucho mas rápida, eficiente y robusta (Angular, View, React,entre otros)
+
+Si no quieres trabajar solo en aplicaciones Web puedes utilizar JavaScript con un framework que se llama React Native para poder construir aplicaciones nativas como Android y IOS.
+
+Puedes construir aplicaciones de escritorio con JavaScript, usando un framework llamado Electron, pueden correr en Mac o Windows.
+
+También puedes trabajar en la parte del Back-end o **IOT **(Internet Od Things) es un concepto que se refiere a una interconexion digital de objetos cotidianos con Internet. Esto con un Framework llamado NodeJS, el cual es un entorno de ejecución de JavaScript que corre directamente en el Back-end.
+
+___________________
+TIPOS DEL LENGUAJE: valores del lenguaje:
+-------------------
+
+Todos los lenguajes de programación contienen estructuras de datos, pero estas pueden diferir de un lenguaje a otro.
+
+En Javascript salvo los tipos primitivos, todo lo demás son objetos.
+
+En Javascript existen 6 estructuras de datos primitivas:
+
+    Primitivos:
+    - String
+    - Number
+    - Boolean
+    - Symbol (ECMAScript 6)
+    - Null
+    - Undefined
+
+    - Existen otras estructuras de datos como:
+    - Objetos
+        - Array
+        - Diccionarios
+    - Tipos predefinidos por el lenguaje
+        - Dates
+        - RegExp
+    - Tipos definidos por el desarrollador
+        - Funciones
+
+-------------------
+VALORES PRIMITIVOS:
+-------------------
+
+numberos (Number)
+let numero = 40;
+
+cadenas de textos (String)
+let nombre = "Alfredo"; // Podemos usar comillas dobles
+let ciudad = 'Madrid'; // Podemos usar simples
+
+Booleanos (Boolean)
+let cierto = true;
+let falso = false;
+
+Valores vacios null y undefined: Para ocupar el espacio en memoria para luego asignarle el valor.
+let admin = null;
+let edad = undefined;
+
+--------------------
+VALORES TIPO OBJETOS:
+--------------------
+
+arrays []
+let frutas = ["manzanas", "peras", "uvas"];
+let array = [1,"Madrid",false,23];
+
+objetos {}
+let usuario = {
+    nombre: "Alfredo",
+    apellido: "Sánchez",
+    edad: 25,
+    isDev:true
+}
+
+--------------------
+Para ver los tipos de los valores podemos usar la palabra reservada-> typeof
+--------------------
+
+console.log(typeof nombre);// string
+console.log(typeof cierto);// boolean
+console.log(typeof admin);// object
+console.log(typeof edad);// undefined
+console.log(typeof frutas);// object
+console.log(typeof usuario);// object
