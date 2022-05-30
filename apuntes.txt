@@ -1,1 +1,13 @@
 Curso de JavaScript de Codigo Facilito.
+
+Sitio web donde podemos investigar mas sobre el lenguaje:
+
+MDN: Red de desarrolladores de Mozilla. Mozilla developer network:
+https://developer.mozilla.org/es/
+https://developer.mozilla.org/es/docs/Web/JavaScript
+
+Configuracion del entorno de trabajo:
+- Navegador web, puede ser Chrome o Firefox.
+- Un editor de codigo, VSCode.
+- Existe un editor online jsbin -> https://jsbin.com/?html,js,output
+
