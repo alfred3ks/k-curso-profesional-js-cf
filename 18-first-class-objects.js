@@ -35,8 +35,6 @@ function build() {
 
 build();
 
-
-
 */
 
 // Funcion que recibe una funcion por parametro:
