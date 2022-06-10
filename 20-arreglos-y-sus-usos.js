@@ -21,6 +21,7 @@ console.log(promedio);
 // Esto anterior no es muy practico imagina que son 50 calificaciones.
 
 /*
+
 Caracteristicas de los arrays:
 - Pueden almacenar cualquier tipo de dato de primera clase, funciones, objetos, numeros, cadenas, booleanos e incluso otros arreglos.
 - Una de las propiedades de los arreglos es su longitud, la longitud es igual a la cantidad de elementos dentro del arreglo.

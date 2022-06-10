@@ -1,4 +1,5 @@
 /*
+
 Coercion de tipos:
 Cuando en nuestro codigo interactuan dos tipos de datos distintos en una operacion JS hara una conversion implicita de datos a la que se le llama type coercion.
 

@@ -1,4 +1,5 @@
 /*
+
 JS es categorizado con un lenguaje debilmente tipado, esto quiere decir que aunque hay mucha flexibilidad en el tipado de una variable las variables si tienen asignado un tipo de dato.
 
 El lenguaje puede definir la cantidad de memoria reservar a traves del dato que le estamos diciendo.

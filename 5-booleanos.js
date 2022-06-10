@@ -1,4 +1,6 @@
-/* Booleanos:
+/*
+
+Booleanos:
 
 True o False
 

@@ -1,4 +1,5 @@
 /*
+
 Procedemos a ver otro metodo para trabajar con arrays.
 El metodo filter().
 
