@@ -28,11 +28,11 @@ let e = new Estudiantes();
 e.saludar();
 
 // call():
-e.saludar.call({}, "1", "2");
+e.saludar.call(e, "1", "2");
 
 // apply():
-e.saludar.apply({},["3","4"]);
+e.saludar.apply(e,["3","4"]);
 
 // bind():
-let nueva = e.saludar.bind({}, "6", "7");
+let nueva = e.saludar.bind(e, "6", "7");
 nueva();
