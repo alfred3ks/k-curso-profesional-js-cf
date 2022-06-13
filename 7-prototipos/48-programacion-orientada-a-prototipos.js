@@ -48,7 +48,5 @@ Y nos muestra la propiedad prototype __proto__
 
 Aqui nos debemos quedar que existe la cadena de prototipos detras del objeto, que cuando nosotros mandamos a llamar una funcion o propiedad sobre un objeto la busca en el objeto sino la encuentra hace el recorrido por la cadena de prototipos hasta que llega al object. Si lo encuentra lo llama.
 
-
-
 */
 
