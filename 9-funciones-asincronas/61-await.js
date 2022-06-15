@@ -33,7 +33,7 @@ let asincrona = async ()=>{
 
 asincrona();
 
-// Aqui tenemos otro ejemplo: Probarlo en navegador en nodeJS no esta definido el metodo fetch()
+// Aqui tenemos otro ejemplo: Probarlo en navegador en nodeJS no esta definido el metodo fetch() hay que descargar un modulo.
 let showGitHubInfo = async ()=> {
     let response = await fetch('https://api.github.com/users/alfred3ks/repos');
     let json = await response.json();
