@@ -7,7 +7,6 @@ Ahora nos preguntaremos que pasara si llamamos a return desde una funcion genera
 
 */
 
-
 function* counterN() {
     for (var i = 1; i <= 5; i++) {
         yield i;
