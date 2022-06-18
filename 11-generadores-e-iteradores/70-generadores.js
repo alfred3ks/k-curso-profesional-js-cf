@@ -31,7 +31,7 @@ function* counterN() {
     }
 }
 
-let generatorNuM = counterN()
+let generatorNuM = counterN();
 console.log(generatorNuM.next());
 console.log(generatorNuM.next());
 console.log(generatorNuM.next());
