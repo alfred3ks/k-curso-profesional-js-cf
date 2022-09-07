@@ -50,7 +50,7 @@ console.log(x); undefined
 var x;
 
 // Hoisting en funciones: No arroja error:
-function demo(){
+function demo() {
     console.log(x);
     var x;
 }
